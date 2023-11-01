@@ -67,7 +67,6 @@ SELECT ename FROM manager WHERE designation != 'manager';
 ### OUTPUT:
 ![db5](https://github.com/vidhyadharan-03/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/114286357/26af984a-1403-4787-8a19-fb1387534716)
 
-
 ### Q6)	List the names of employees not eligible for commission.
 ### QUERY:
 ~~~
@@ -75,7 +74,6 @@ SELECT ename FROM manager WHERE commission = 0;
 ~~~
 ### OUTPUT:
 ![db6](https://github.com/vidhyadharan-03/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/114286357/99e70079-f7b3-4d12-99a3-9e9e7495957c)
-
 
 ### Q7)	List employees whose name either start or end with ‘s’.
 ### QUERY:
