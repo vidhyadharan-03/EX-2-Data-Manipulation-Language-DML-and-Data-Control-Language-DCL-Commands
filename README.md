@@ -18,8 +18,10 @@ DELETE: It is used to delete records from a database table.<br>
 
 ## Create the table as given below:
 ```sql
-create table manager(enumber number(6),ename char(15),salary number(5),commission number(4),
-annualsalary number(7),Hiredate date,designation char(10),deptno number(2),reporting char(10));
+create table manager(enumber number(6),ename char(15),
+salary number(5),commission number(4),
+annualsalary number(7),Hiredate date,designation
+char(10),deptno number(2),reporting char(10));
 ```
 ## insert the following values into the table
 ```sql
@@ -137,7 +139,8 @@ SELECT MAX(salary) AS "Maximum Salary", MIN(salary) AS "Minimum Salary", AVG(sal
 ### Q14) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
 ### QUERY:
 ~~~
-SELECT designation, COUNT(*) AS "Number of Employees" FROM manager GROUP BY designation ORDER BY COUNT(*) DESC;
+SELECT designation, COUNT(*) AS "Number of Employees"
+FROM manager GROUP BY designation ORDER BY COUNT(*) DESC;
 ~~~
 ### OUTPUT:
 ![db14](https://github.com/vidhyadharan-03/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/114286357/2212a2b1-3529-486e-b16f-1c0f2a66a2e5)
